@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner>div>h1 {
+    color: white;
+    margin: 22px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+.banner {
+    display: flex;
+    background: rgb(16,34,41);
+    background: linear-gradient(95deg, rgba(16,34,41,1) 0%, rgba(44,82,99,1) 100%); 
+}
+
+.banner>div>img {
+    max-height: 162px;
+}
+
+h3 {
+    /* font-size: 1.6rem !important; */
+    font-family: 'Montserra', sans-serif;
+    font-weight: bold;
+}
+
+.tchat{
+    /* border-radius: 4px; */
+    resize: none;
+}
