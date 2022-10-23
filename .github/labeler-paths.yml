@@ -1,0 +1,18 @@
+---
+scope/ci:
+  - .github/**/*
+scope/frontend:
+  - frontend/**/*
+scope/backend:
+  - backend/**/*
+
+# Language label paths
+javascript:
+  - ./**/*.js
+go:
+  - ./**/*.go
+markdown:
+  - ./**/*.md
+yaml:
+  - ./**/*.yml
+  - ./**/*.yaml
